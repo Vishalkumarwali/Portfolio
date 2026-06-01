@@ -41,15 +41,16 @@ function Hero() {
                 </button>
               </a>
 
-              {/* Resume */}
-              <a
-                href="/Vishal_Wali_Resume.pdf"
-                download
-              >
-                <button className="w-full sm:w-auto border border-[#8b5cf6] hover:bg-[#8b5cf6] transition duration-300 px-6 py-3 rounded-xl text-white text-[15px] md:text-[16px] font-semibold">
-                  Download Resume
-                </button>
-              </a>
+            {/* Resume */}
+<a
+  href="/vishal_resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="w-full sm:w-auto border border-[#8b5cf6] hover:bg-[#8b5cf6] transition duration-300 px-6 py-3 rounded-xl text-white text-[15px] md:text-[16px] font-semibold">
+    Download Resume
+  </button>
+</a>
 
             </div>
 
