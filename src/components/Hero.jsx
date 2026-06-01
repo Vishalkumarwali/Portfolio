@@ -40,17 +40,17 @@ function Hero() {
                   View My Work
                 </button>
               </a>
-
-            {/* Resume */}
+              {/* Resume */}
 <a
   href="/vishal_resume.pdf"
   target="_blank"
   rel="noopener noreferrer"
+  className="w-full sm:w-auto border border-[#8b5cf6] hover:bg-[#8b5cf6] transition duration-300 px-6 py-3 rounded-xl text-white text-[15px] md:text-[16px] font-semibold text-center"
 >
-  <button className="w-full sm:w-auto border border-[#8b5cf6] hover:bg-[#8b5cf6] transition duration-300 px-6 py-3 rounded-xl text-white text-[15px] md:text-[16px] font-semibold">
-    Download Resume
-  </button>
+  Download Resume
 </a>
+
+         
 
             </div>
 
